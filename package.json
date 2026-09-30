@@ -1,0 +1,12 @@
+{
+  "name": "painel-comercial-vercel",
+  "version": "1.0.0",
+  "description": "Painel comercial — adaptado para deploy na Vercel com Upstash Redis",
+  "scripts": {
+    "dev": "node local.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@upstash/redis": "^1.34.3"
+  }
+}
